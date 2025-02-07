@@ -1,0 +1,125 @@
+.subscribe-button {
+	background-color: rgb(182, 3, 3);
+	border-radius: 2px;
+	border: none;
+	height: 35px;
+	width: 100px;
+	margin-right: 10px;
+	color: white;
+	cursor: pointer;
+	transition: opacity 0.15s;
+	/*Переход далее пишем свойство чего и сколько*/
+}
+
+.subscribe-button:hover {
+	opacity: 0.8;
+	/*Непрозрачность от 0 до 1*/
+}
+
+.subscribe-button:active {
+	opacity: 0.4;
+}
+
+.join-button {
+	background-color: white;
+	border-color: rgb(38, 124, 230);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 2px;
+	margin-right: 10px;
+	height: 35px;
+	width: 60px;
+	color: rgb(38, 124, 230);
+	cursor: pointer;
+	transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+	background-color: rgb(38, 124, 230);
+	color: white;
+}
+
+.join-button:active {
+	opacity: 0.7;
+}
+
+.tweet-button {
+	background-color: rgb(16, 163, 249);
+	border: none;
+	border-radius: 18px;
+	height: 35px;
+	width: 65px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.20);
+}
+
+p {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 14px;
+}
+
+.nested-layouts {
+	display: flex;
+	align-items: center;
+	width: 280px;
+	background-color: rgb(212, 212, 212);
+	
+}
+
+.profile-image {
+	margin-top: 5px;
+ display: inline-block;
+ width: 36px;
+ margin-right: 5px;
+}
+
+.profile-avatar {
+	width: 100%;
+	border-radius: 18px;
+}
+
+.profile-informations {
+	display: inline-block;
+	width: 180px;
+}
+
+.profile-name,
+.profile-status,
+.profile-description
+ {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.profile-name {
+	font-weight: bold;
+}
+
+.profile-status,
+.profile-description {
+ color: grey;
+}
+
+.button {
+	display: inline-block;
+	
+}
+
+.follow-button {
+	background-color: rgb(16, 163, 249);
+	border-radius: 2px;
+	border: none;
+	height: 25px;
+	width: 50px;
+	color: white;
+	cursor: pointer;
+	font-size: 12px;
+	border-radius: 3px;
+
+}
