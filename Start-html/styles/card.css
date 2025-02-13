@@ -1,0 +1,67 @@
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-card-grid {
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+	column-gap: 40px;
+}
+
+.profile-card {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.image-row {
+	
+}
+
+.image {
+	height: 200px;
+}
+
+.profile-info-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 5px;
+}
+
+.profile-info {
+	margin-left: 7px;
+}
+
+.profile-name {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.profile-avatar {
+	width: 30px;
+	border-radius: 15px;
+}
+
+.mutual-friends {
+	font-size: 10px;
+	color: grey;
+	opacity: 0.8;
+}
+
+.add-button {
+	background-color: rgb(33, 116, 225);
+	border: none;
+	border-radius: 3px;
+	color: white;
+	height: 35px;
+	width: 100px;
+	cursor: pointer;
+	transition: opacity 0.15s;
+}
+
+.add-button:hover {
+	opacity: 0.8;
+	/*Непрозрачность от 0 до 1*/
+}
+
+.add-button:active {
+	opacity: 0.4;
+}
